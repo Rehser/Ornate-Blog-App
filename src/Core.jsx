@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export class Core extends Component {
   render() {
-    return <Nav />;
+    return <div />;
   }
 }
 
