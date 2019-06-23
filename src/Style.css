@@ -17,6 +17,12 @@ a {
   font-size: 18px;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .logo {
   margin-left: 20px;
   padding: 2px 20px;
@@ -25,6 +31,44 @@ a {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+}
+
+.container {
+  padding: 20px;
+}
+
+.jumbotron {
+  background-image: url(./assets/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  margin: 5px;
+  border: none;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+.card-header {
+  color: #2a2829;
+  background: #daa520;
+}
+
+#word {
+  color: #ffffff;
 }
 
 .navbar-light .navbar-brand {
@@ -47,4 +91,15 @@ a {
 .navbar-light .navbar-toggler {
   color: #ffffff;
   border-color: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin: 10px;
+    padding-left: 10px;
+  }
+
+  .card {
+    margin: 10px;
+  }
 }
