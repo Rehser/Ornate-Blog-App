@@ -13,10 +13,10 @@ export class Core extends Component {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/projects" exact component={Projects} />
-          <Route path="/pending" component={Pending} />
-          <Route path="/settings" component={Settings} />
+          <Route path="/pending" exact component={Pending} />
+          <Route path="/settings" exact component={Settings} />
         </Switch>
       </Router>
     );
